@@ -34,7 +34,7 @@ export default function ContactPage() {
                    </div>
                    <div>
                      <h3 className="text-xl font-bold text-primary mb-2">العنوان</h3>
-                     <p className="text-gray-600 font-medium">الجمهورية اليمنية، صنعاء<br/>شارع الستين الجنوبي، المركز التجاري</p>
+                     <p className="text-gray-600 font-medium">الجمهورية اليمنية، صنعاء<br/>شارع الخمسين</p>
                    </div>
                  </div>
 
@@ -44,7 +44,7 @@ export default function ContactPage() {
                    </div>
                    <div>
                      <h3 className="text-xl font-bold text-primary mb-2">الهاتف المباشر</h3>
-                     <p dir="ltr" className="text-gray-600 font-mono font-bold text-right">+967 780 27 88 88</p>
+                     <p dir="ltr" className="text-gray-600 font-mono font-bold text-right">+967 777 397 037</p>
                    </div>
                  </div>
 

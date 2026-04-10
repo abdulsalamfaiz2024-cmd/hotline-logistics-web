@@ -61,7 +61,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 group">
                 <Phone className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
-                <span dir="ltr" className="font-mono tracking-widest">+967 780 27 88 88</span>
+                <span dir="ltr" className="font-mono tracking-widest">+967 777 397 037</span>
               </div>
               <div className="flex items-center gap-3 group">
                 <Mail className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />

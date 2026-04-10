@@ -38,7 +38,7 @@ export default function Navbar() {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-brand-red" />
-                <span dir="ltr" className="tracking-widest font-mono">+967 780 27 88 88</span>
+                <span dir="ltr" className="tracking-widest font-mono">+967 777 397 037</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={14} className="text-brand-red" />
