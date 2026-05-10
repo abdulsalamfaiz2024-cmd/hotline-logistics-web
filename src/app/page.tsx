@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Anchor, ClipboardCheck, Truck, Users, Activity, Zap, ShieldCheck, TrendingDown, ArrowLeft, Package, Plane } from "lucide-react";
+import { Anchor, Truck, Users, Zap, ShieldCheck, ArrowLeft, Package, Plane, Globe, CheckCircle, Headphones } from "lucide-react";
 
 export default function Home() {
   return (
@@ -44,11 +44,11 @@ export default function Home() {
             <div className="lg:w-1/2">
               <h2 className="text-brand-red font-bold uppercase tracking-widest text-sm mb-3">من نحن</h2>
               <h3 className="text-4xl md:text-5xl font-extrabold text-primary mb-6 leading-tight">
-                إرث ملاحي يعبر المحيطات، ورؤية مستقبلية تتخطى الحدود.
+                شريككم اللوجستي الموثوق منذ 2009
               </h3>
               <div className="w-20 h-1 bg-brand-red rounded-full mb-8" />
               <p className="text-gray-600 text-lg leading-relaxed mb-8 font-medium">
-                في "هوت لاين إنترناشيونال"، نؤمن بأن التجارة العالمية هي الشريان الذي يغذي نمو الأمم. لقد بنينا إرثنا على مدى عقود من الالتزام القاطع بتأمين خطوط الشحن إلى اليمن بأعلى معايير السلامة والكفاءة، حتى في أصعب الظروف الإقليمية. أدواتنا هي الخبرة العميقة، شبكاتنا القوية، وفريقنا المتفاني.
+                تأسست الشركة في عام 2009 في صنعاء، واستطاعت أن توجد لها موطئ قدم بين كبرى الشركات العاملة في هذا المجال. شركتنا متخصصة ورائدة في الشحن والنقل عبر جميع المنافذ البحرية والبرية والجوية سواء للأفراد أو الشركات أو المؤسسات.
               </p>
               <Link href="/about" className="inline-flex items-center gap-2 text-primary hover:text-brand-red font-bold text-lg transition-colors group">
                 اقرأ المزيد عن قصتنا <ArrowLeft size={20} className="group-hover:-translate-x-2 transition-transform" />
@@ -75,12 +75,12 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: "الشحن البحري", image: "/images/Freight.jpeg", icon: <Anchor size={24} />, desc: "توفير حلول الشحن للحاويات الكاملة والمجزأة بأسعار تنافسية مع أكبر الخطوط الملاحية." },
-              { title: "الشحن الجوي", image: "/images/air_freight.png", icon: <Plane size={24} />, desc: "خدمات شحن جوي عالمية سريعة وموثوقة لضمان وصول بضائعك العاجلة بأمان." },
-              { title: "التخليص الجمركي", image: "/images/port.png", icon: <ClipboardCheck size={24} />, desc: "تخليص سريع وآمن في موانئ اليمن عبر فريقنا الميداني المتمرس بقوانين الجمارك." },
-              { title: "النقل البري", image: "/images/road_freight.jpg", icon: <Truck size={24} />, desc: "نقل الحاويات من الموانئ إلى المستودعات بأعلى معايير السلامة وفي الوقت المحدد." },
-              { title: "الاستشارات اللوجستية", image: "/images/service-5.jpg", icon: <Users size={24} />, desc: "تقديم دراسات جدوى وتحليلات تسعيرية لاختيار أفضل المسارات المتاحة لبضائعك." },
-              { title: "خدمات التخزين", image: "/images/warehouse_solutions.jpg", icon: <Package size={24} />, desc: "توفير مساحات تخزينية آمنة ومجهزة بأعلى معايير السلامة لحفظ بضائعك قبل وبعد الشحن." }
+              { title: "خدمات الاستيراد والتصدير", image: "/images/Freight.jpeg", icon: <Anchor size={24} />, desc: "نوفر لكم الحاويات بجميع أنواعها وأحجامها من وإلى جميع دول العالم." },
+              { title: "خدمة الشحن الجوي", image: "/images/air_freight.png", icon: <Plane size={24} />, desc: "خدمة استلام وتوصيل الشحنات المرسلة إليكم جواً إلى مطار صنعاء لنختصر لكم الوقت." },
+              { title: "الخدمات اللوجيستية", image: "/images/service-5.jpg", icon: <Globe size={24} />, desc: "نسعى باستمرار لتقديم أفضل الخدمات الممكنة وتطبيق أعلى المعايير لتعزيز الثقة وتحقيق أهدافكم." },
+              { title: "خدمات الشحن البري", image: "/images/road_freight.jpg", icon: <Truck size={24} />, desc: "شحن ونقل البضائع بمختلف أنواعها من الموانئ أو المنافذ البرية إلى مخازن عملائنا بأسطول نقل آمن وسريع." },
+              { title: "خدمات الشحن الجزئي", image: "/images/warehouse_solutions.jpg", icon: <Package size={24} />, desc: "شحن الطرود والبضائع من دولة الصين وإيصالها إليكم." },
+              { title: "خدمات نقل الموانئ", image: "/images/port.png", icon: <Users size={24} />, desc: "شحن ونقل البضائع عبر ميناء جيبوتي إلى ميناء الصليف، ومن ميناء الحديدة إلى أي مكان في الجمهورية اليمنية." }
             ].map((service, i) => (
               <div key={i} className="bg-white overflow-hidden rounded-2xl shadow-lg border border-gray-100 flex flex-col group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-48 w-full overflow-hidden">
@@ -116,29 +116,45 @@ export default function Home() {
             <div className="w-20 h-1 bg-brand-red mx-auto rounded-full" />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 text-center">
             <div className="flex flex-col items-center">
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
-                <Zap size={48} className="text-brand-red group-hover:scale-110 transition-transform" />
+                <Zap size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">السرعة الفائقة</h3>
-              <p className="text-gray-300 font-medium leading-relaxed">إدارة أزمات لوجستية محكمة تضمن عدم تأخر البضائع ووصولها في الوقت المخطط له عبر مسارات بديلة عند الحاجة.</p>
+              <h3 className="text-xl font-bold mb-3">السرعة</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">السرعة في تقديم الخدمات لعملائنا.</p>
             </div>
             
             <div className="flex flex-col items-center">
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
-                <ShieldCheck size={48} className="text-brand-red group-hover:scale-110 transition-transform" />
+                <ShieldCheck size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">الأمان الموثوق</h3>
-              <p className="text-gray-300 font-medium leading-relaxed">توفير تأمين شامل على البضائع ومراقبة مستمرة منذ لحظة إبحار الحاوية وحتى وصولها إلى باب مستودعك لتفادي فقدانها.</p>
+              <h3 className="text-xl font-bold mb-3">الموثوقية</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">الموثوقية في التعامل مع احتياجات العملاء.</p>
             </div>
 
             <div className="flex flex-col items-center">
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
-                <TrendingDown size={48} className="text-brand-red group-hover:scale-110 transition-transform" />
+                <Globe size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">الأسعار التنافسية</h3>
-              <p className="text-gray-300 font-medium leading-relaxed">علاقاتنا الاستراتيجية مع الخطوط الملاحية العالمية تسمح لنا بتقديم أفضل الأسعار مع خفض رسوم الأرضيات الجمركية.</p>
+              <h3 className="text-xl font-bold mb-3">شبكة واسعة</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">شبكة واسعة لفروعنا ومكاتبنا المتواجدة بالقرب منكم.</p>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
+                <CheckCircle size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">جودة التسليم</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">وصول بضائعكم بجودتها كما تم استلامها.</p>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
+                <Headphones size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
+              </div>
+              <h3 className="text-xl font-bold mb-3">الاستشارات</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">تقديم استشارات خاصة لعملائنا الكرام حول جميع خدماتنا.</p>
             </div>
           </div>
         </div>

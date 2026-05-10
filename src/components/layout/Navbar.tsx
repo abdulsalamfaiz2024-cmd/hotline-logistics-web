@@ -38,7 +38,7 @@ export default function Navbar() {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-brand-red" />
-                <span dir="ltr" className="tracking-widest font-mono">+967 777 397 037</span>
+                <span dir="ltr" className="tracking-widest font-mono">+967 783 948 888</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={14} className="text-brand-red" />
@@ -56,12 +56,8 @@ export default function Navbar() {
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 lg:px-8 relative">
           
           {/* Brand Logo */}
-          <Link href="/" className="flex items-center gap-3 relative z-10">
-            <img src="/images/logo.png" alt="Hotline International" className="h-12 w-auto object-contain" />
-            <div className="flex flex-col border-r-2 border-brand-red pr-3 mr-1">
-              <span className="text-xl font-extrabold tracking-tight text-primary md:text-2xl">هوت لاين</span>
-              <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-gray-500 md:text-xs">INTERNATIONAL</span>
-            </div>
+          <Link href="/" className="flex items-center relative z-10">
+            <img src="/images/logo_with_text.png?v=2" alt="Hotline International" className="h-12 md:h-16 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav Nodes */}

@@ -12,12 +12,8 @@ export default function Footer() {
           
           {/* Column 1: System Identity */}
           <div className="flex flex-col gap-6">
-            <Link href="/" className="flex items-center gap-3">
-              <img src="/images/logo.png" alt="Hotline Matrix" className="h-10 w-auto object-contain brightness-200" />
-              <div className="flex flex-col">
-                <span className="text-xl font-extrabold tracking-tight">هوت لاين</span>
-                <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-brand-blue">INTELLIGENCE</span>
-              </div>
+            <Link href="/" className="inline-flex bg-white p-3 rounded-xl border border-white/10 self-start shadow-sm">
+              <img src="/images/logo_with_text.png?v=2" alt="Hotline International" className="h-10 w-auto object-contain" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed font-medium">
               نظام لوجستي ذكي ومقاوم للأزمات يضمن لك عبور بضائعك نحو موانئ اليمن بسلامة مطلقة وبيانات لحظية.
@@ -41,13 +37,14 @@ export default function Footer() {
             <Link href="/tracking" className="text-gray-400 font-medium hover:text-brand-red transition-colors hover:translate-x-[-4px] transform inline-block">تتبع الشحنات</Link>
           </div>
 
-          {/* Column 3: Ports Array */}
+          {/* Column 3: Branches */}
           <div className="flex flex-col gap-4">
-            <h3 className="text-lg font-bold text-white mb-2">منافذ التغطية (اليمن)</h3>
+            <h3 className="text-lg font-bold text-white mb-2">فروعنا ومكاتبنا</h3>
             <ul className="flex flex-col gap-3 font-medium text-gray-400">
-              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">ميناء الحديدة (المنطقة الحمراء)</li>
-              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">ميناء عدن (المنطقة اللوجستية)</li>
-              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">ميناء الصليف (نقطة الدعم)</li>
+              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">الإدارة العامة صنعاء: شارع المطار أمام صحيفة الثورة</li>
+              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع الحديدة: شارع الميناء أمام مطعم صنعاء</li>
+              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع شحن</li>
+              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع جيبوتي</li>
             </ul>
           </div>
 
@@ -57,11 +54,11 @@ export default function Footer() {
             <div className="flex flex-col gap-4 text-sm font-medium text-gray-400">
               <div className="flex items-start gap-3 group">
                 <MapPin className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
-                <span>صنعاء - الجمهورية اليمنية<br/>المقر الرئيسي للإدارة اللوجستية</span>
+                <span>صنعاء - شارع المطار<br/>أمام صحيفة الثورة</span>
               </div>
               <div className="flex items-center gap-3 group">
                 <Phone className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
-                <span dir="ltr" className="font-mono tracking-widest">+967 777 397 037</span>
+                <span dir="ltr" className="font-mono tracking-widest">+967 783 948 888</span>
               </div>
               <div className="flex items-center gap-3 group">
                 <Mail className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />

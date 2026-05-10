@@ -10,7 +10,7 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6">من نحن</h1>
           <div className="w-24 h-1 bg-brand-red mx-auto lg:mx-0 rounded-full mb-8" />
           <p className="text-xl text-gray-300 font-medium leading-relaxed max-w-3xl">
-            نحن "هوت لاين إنترناشيونال"، شركة وطنية ودولية تسعى لسد ثغرات التجارة وسلاسل الإمداد في منطقة معقدة وديناميكية. تأسست الشركة لتقديم وعود ملاحية صادقة، وأفعال لوجستية قياسية، واضعين نصب أعيننا تعافي الاقتصاد وازدهاره.
+            تأسست الشركة في عام 2009 في صنعاء، واستطاعت أن توجد لها موطئ قدم بين كبرى الشركات العاملة في هذا المجال. شركتنا متخصصة ورائدة في الشحن والنقل عبر جميع المنافذ البحرية والبرية والجوية سواء للأفراد أو الشركات أو المؤسسات.
           </p>
         </div>
       </section>
@@ -29,7 +29,7 @@ export default function AboutPage() {
             <div className="bg-white p-12 rounded-2xl shadow-xl border-t-4 border-brand-red">
               <h2 className="text-3xl font-bold text-primary mb-6">مهمتنا</h2>
               <p className="text-gray-600 leading-relaxed font-medium text-lg">
-                تقديم خدمات النقل البحري والبري والتخليص الجمركي بموثوقية تامة وكفاءة زمانية ومكانية مطلقة. نلتزم بناء جسور من الشفافية والتواصل المباشر مع عُملائنا، وتبسيط الإجراءات إلى أقصى حد لنجاح كافة الأطراف.
+                تقديم خدمات النقل البحري والبري بموثوقية تامة وكفاءة زمانية ومكانية مطلقة. نلتزم بناء جسور من الشفافية والتواصل المباشر مع عُملائنا، وتبسيط الإجراءات إلى أقصى حد لنجاح كافة الأطراف.
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function AboutPage() {
              <div className="p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
                <div className="w-16 h-16 bg-brand-red text-white rounded-full flex items-center justify-center font-bold text-2xl mx-auto mb-6">2</div>
                <h3 className="text-xl font-bold text-primary mb-3">الشفافية (Transparency)</h3>
-               <p className="text-sm font-medium text-gray-500">إطلاع العميل على كافة الحقائق والعقبات الجمركية بشكل فوري ومباشر.</p>
+               <p className="text-sm font-medium text-gray-500">إطلاع العميل على كافة الحقائق والمستجدات بشكل فوري ومباشر.</p>
              </div>
 
              <div className="p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">

@@ -1,4 +1,4 @@
-import { Anchor, ClipboardCheck, Truck, Users, Activity, FileQuestion, ChevronDown, Package, Plane } from "lucide-react";
+import { Anchor, Truck, Users, FileQuestion, ChevronDown, Package, Plane } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = { title: "خدماتنا - هوت لاين" };
@@ -64,27 +64,7 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          {/* Service 2 */}
-          <div className="bg-white rounded-2xl shadow-md p-8 md:p-12 border border-gray-100 flex flex-col md:flex-row gap-8 items-start">
-            <div className="w-full md:w-1/3 shrink-0">
-              <img src="/images/port.png" alt="التخليص الجمركي" className="w-full h-56 object-cover rounded-2xl shadow-md" />
-            </div>
-            <div className="w-full md:w-2/3">
-              <div className="flex items-center gap-3 mb-4">
-                <ClipboardCheck size={32} className="text-brand-red" />
-                <h2 className="text-3xl font-bold text-primary">التخليص الجمركي</h2>
-              </div>
-              <p className="text-gray-600 leading-relaxed font-medium mb-6 text-lg">
-                خبرتنا الطويلة في الموانئ اليمنية تتيح لنا المرور ببضائعك عبر الإجراءات الجمركية بأعلى سرعة ممكنة. نقدم معالجة مسبقة للوثائق فور تحميل السفينة لضمان عدم وجود تأخير أو احتساب رسوم أرضيات استثنائية.
-              </p>
-              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-primary font-bold">
-                <li>• تخليص استباقي ومبكر</li>
-                <li>• استخراج التراخيص والتصاريح</li>
-                <li>• مطابقة المواصفات القياسية</li>
-                <li>• خفض غرامات التأخير</li>
-              </ul>
-            </div>
-          </div>
+
 
           {/* Service 3 */}
           <div className="bg-white rounded-2xl shadow-md p-8 md:p-12 border border-gray-100 flex flex-col md:flex-row gap-8 items-start">
@@ -144,12 +124,12 @@ export default function ServicesPage() {
            </h2>
            <div className="space-y-4">
              {/* Note: Dummy visual states for the accordion */}
-             <div className="border border-gray-200 rounded-lg p-5 cursor-pointer hover:bg-gray-50">
-               <div className="flex justify-between items-center font-bold text-primary">
-                 <span>كم تستغرق عملية التخليص الجمركي عادةً؟</span>
-                 <ChevronDown size={20} className="text-brand-red" />
-               </div>
-             </div>
+              <div className="border border-gray-200 rounded-lg p-5 cursor-pointer hover:bg-gray-50">
+                <div className="flex justify-between items-center font-bold text-primary">
+                  <span>ما هي مدة وصول الشحنة البحرية؟</span>
+                  <ChevronDown size={20} className="text-brand-red" />
+                </div>
+              </div>
              <div className="border border-gray-200 rounded-lg p-5 cursor-pointer bg-gray-50">
                <div className="flex justify-between items-center font-bold text-primary mb-3">
                  <span>هل توفرون خدمة التخزين المؤقت في موانئ الوصول؟</span>

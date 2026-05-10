@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Hotline International",
     images: [
       {
-        url: "/images/logo.png", // Will appear automatically in WhatsApp/Viber
+        url: "/images/logo_with_text.png", // Will appear automatically in WhatsApp/Viber
         width: 800,
         height: 600,
         alt: "شعار هوت لاين الرسمي",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "هوت لاين للخدمات الملاحية | Hotline International",
     description: "تأمين سلاسل الإمداد العالمية إلى الشرق الأوسط واليمن وتتبع البضائع لحظياً.",
-    images: ["/images/logo.png"],
+    images: ["/images/logo_with_text.png"],
   },
 };
 

@@ -6,11 +6,11 @@ import { Mail } from "lucide-react";
 
 export default function FloatingWhatsApp() {
   const phoneNumber = "967777397037";
-  const message = "مرحباً فريق هوت لاين! لقد زرت موقعكم الإلكتروني وأود الاستفسار عن خدماتكم اللوجستية (الشحن البحري، التخليص الجمركي، أو النقل البري). هل يمكنني الحصول على استشارة وعرض سعر؟";
+  const message = "مرحباً فريق هوت لاين! لقد زرت موقعكم الإلكتروني وأود الاستفسار عن خدماتكم اللوجستية (الاستيراد والتصدير، الشحن الجوي، الشحن البري). هل يمكنني الحصول على استشارة وعرض سعر؟";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   const email = "info@hotline-int.com";
-  const emailSubject = "استفسار بخصوص خدمات الشحن والتخليص الجمركي";
+  const emailSubject = "استفسار بخصوص خدمات الشحن والنقل";
   const mailToUrl = `mailto:${email}?subject=${encodeURIComponent(emailSubject)}`;
 
   return (
