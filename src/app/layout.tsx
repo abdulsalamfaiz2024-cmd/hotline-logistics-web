@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     locale: "ar_YE",
     images: [
       {
-        url: "/images/social-preview.jpg",
+        url: "/images/social-preview.png",
         width: 1200,
         height: 630,
         alt: "هوت لاين إنترناشيونال — شريكك اللوجستي الموثوق",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "هوت لاين إنترناشيونال | الشريك اللوجستي الموثوق",
     description: "شريكك اللوجستي لنقل البضائع عبر كافة المنافذ البحرية والبرية والجوية. خدمات استيراد وتصدير متكاملة بأعلى معايير الأمان والسرعة.",
-    images: ["/images/social-preview.jpg"],
+    images: ["/images/social-preview.png"],
   },
   other: {
     "theme-color": "#0a1628",
