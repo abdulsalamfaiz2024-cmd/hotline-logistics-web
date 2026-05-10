@@ -12,35 +12,46 @@ const tajawal = Tajawal({
 });
 
 export const metadata: Metadata = {
-  title: "هوت لاين للخدمات الملاحية | Hotline International",
-  description: "الشريك اللوجستي الرائد الذي يربط خطوط التجارة العالمية بكافة موانئ اليمن بسلامة مطلقة. قوة في الشحن والتخليص والتخزين.",
+  metadataBase: new URL("https://www.hotline-int.com"),
+  title: {
+    default: "هوت لاين إنترناشيونال | الشريك اللوجستي الموثوق",
+    template: "%s | هوت لاين إنترناشيونال",
+  },
+  description: "شريكك اللوجستي لنقل البضائع عبر كافة المنافذ البحرية والبرية والجوية. خدمات استيراد وتصدير متكاملة بأعلى معايير الأمان والسرعة.",
+  keywords: ["شحن", "لوجستيك", "استيراد", "تصدير", "شحن بحري", "شحن جوي", "شحن بري", "نقل بضائع", "اليمن", "صنعاء", "هوت لاين", "Hotline International", "logistics", "shipping", "Yemen"],
+  authors: [{ name: "Hotline International", url: "https://www.hotline-int.com" }],
+  creator: "Hotline International",
+  publisher: "Hotline International",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
   openGraph: {
-    title: "هوت لاين ماتركس للخدمات اللوجستية والملاحية",
-    description: "تأمين سلاسل الإمداد العالمية إلى الشرق الأوسط واليمن وتتبع البضائع لحظياً. نحن نهندس وصول تجارتك في أحلك الظروف.",
-    url: "https://hotline-int.com",
+    type: "website",
+    url: "https://www.hotline-int.com/",
+    title: "هوت لاين إنترناشيونال | الشريك اللوجستي الموثوق",
+    description: "شريكك اللوجستي لنقل البضائع عبر كافة المنافذ البحرية والبرية والجوية. خدمات استيراد وتصدير متكاملة بأعلى معايير الأمان والسرعة.",
     siteName: "Hotline International",
+    locale: "ar_YE",
     images: [
       {
-        url: "/images/logo_with_text.png", // Will appear automatically in WhatsApp/Viber
-        width: 800,
-        height: 600,
-        alt: "شعار هوت لاين الرسمي",
-      },
-      {
-        url: "/images/shipping.jpeg", // Fallback rich image banner
+        url: "/images/social-preview.jpg",
         width: 1200,
         height: 630,
-        alt: "سفن شحن عملاقة",
-      }
+        alt: "هوت لاين إنترناشيونال — شريكك اللوجستي الموثوق",
+      },
     ],
-    locale: "ar_YE",
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "هوت لاين للخدمات الملاحية | Hotline International",
-    description: "تأمين سلاسل الإمداد العالمية إلى الشرق الأوسط واليمن وتتبع البضائع لحظياً.",
-    images: ["/images/logo_with_text.png"],
+    title: "هوت لاين إنترناشيونال | الشريك اللوجستي الموثوق",
+    description: "شريكك اللوجستي لنقل البضائع عبر كافة المنافذ البحرية والبرية والجوية. خدمات استيراد وتصدير متكاملة بأعلى معايير الأمان والسرعة.",
+    images: ["/images/social-preview.jpg"],
+  },
+  other: {
+    "theme-color": "#0a1628",
+    "apple-mobile-web-app-title": "هوت لاين",
   },
 };
 
