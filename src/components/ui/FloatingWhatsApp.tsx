@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Mail } from "lucide-react";
 
 export default function FloatingWhatsApp() {
-  const phoneNumber = "967777397037";
+  const phoneNumber = "967783948888";
   const message = "مرحباً فريق هوت لاين! لقد زرت موقعكم الإلكتروني وأود الاستفسار عن خدماتكم اللوجستية (الاستيراد والتصدير، الشحن الجوي، الشحن البري). هل يمكنني الحصول على استشارة وعرض سعر؟";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

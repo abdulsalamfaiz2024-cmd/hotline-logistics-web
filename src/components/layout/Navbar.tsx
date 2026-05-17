@@ -22,7 +22,6 @@ export default function Navbar() {
     { name: "الرئيسية", path: "/" },
     { name: "من نحن", path: "/about" },
     { name: "خدماتنا", path: "/services" },
-    { name: "تتبع الشحنات", path: "/tracking" },
     { name: "تواصل معنا", path: "/contact" },
   ];
 
@@ -38,7 +37,11 @@ export default function Navbar() {
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-brand-red" />
-                <span dir="ltr" className="tracking-widest font-mono">+967 783 948 888</span>
+                <div className="flex gap-2 font-mono tracking-wider">
+                  <span dir="ltr">+967 78 394 8888</span>
+                  <span className="hidden lg:inline text-gray-400">|</span>
+                  <span dir="ltr" className="hidden lg:inline">+967 770 000 028</span>
+                </div>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={14} className="text-brand-red" />

@@ -34,7 +34,6 @@ export default function Footer() {
             <Link href="/" className="text-gray-400 font-medium hover:text-brand-red transition-colors hover:translate-x-[-4px] transform inline-block">الرئيسية</Link>
             <Link href="/about" className="text-gray-400 font-medium hover:text-brand-red transition-colors hover:translate-x-[-4px] transform inline-block">من نحن</Link>
             <Link href="/services" className="text-gray-400 font-medium hover:text-brand-red transition-colors hover:translate-x-[-4px] transform inline-block">حلولنا اللوجستية</Link>
-            <Link href="/tracking" className="text-gray-400 font-medium hover:text-brand-red transition-colors hover:translate-x-[-4px] transform inline-block">تتبع الشحنات</Link>
           </div>
 
           {/* Column 3: Branches */}
@@ -56,9 +55,13 @@ export default function Footer() {
                 <MapPin className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
                 <span>صنعاء - شارع المطار<br/>أمام صحيفة الثورة</span>
               </div>
-              <div className="flex items-center gap-3 group">
-                <Phone className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
-                <span dir="ltr" className="font-mono tracking-widest">+967 783 948 888</span>
+              <div className="flex items-start gap-3 group">
+                <Phone className="text-brand-blue group-hover:text-brand-red transition-colors mt-1" size={20} />
+                <div className="flex flex-col gap-1">
+                  <span dir="ltr" className="font-mono tracking-widest">+967 78 394 8888</span>
+                  <span dir="ltr" className="font-mono tracking-widest">+967 770 000 028</span>
+                  <span dir="ltr" className="font-mono tracking-widest">+967 780 000 088</span>
+                </div>
               </div>
               <div className="flex items-center gap-3 group">
                 <Mail className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />

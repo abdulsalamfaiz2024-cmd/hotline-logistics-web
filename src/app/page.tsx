@@ -22,14 +22,8 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link 
-              href="/tracking" 
-              className="bg-brand-red hover:bg-red-800 text-white px-10 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-xl w-full sm:w-auto"
-            >
-              تتبع شحنتك
-            </Link>
-            <Link 
               href="/contact" 
-              className="border-2 border-white text-white hover:bg-white hover:text-primary px-10 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-xl w-full sm:w-auto"
+              className="bg-brand-red hover:bg-red-800 text-white px-10 py-4 rounded-md font-bold text-lg transition-all duration-300 shadow-xl w-full sm:w-auto"
             >
               تواصل معنا
             </Link>

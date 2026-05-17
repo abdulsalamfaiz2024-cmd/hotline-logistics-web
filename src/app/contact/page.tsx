@@ -86,7 +86,11 @@ export default function ContactPage() {
                       <Phone size={24} className="text-brand-red" />
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-1">الهاتف المباشر</h3>
-                    <p dir="ltr" className="text-gray-600 font-mono font-bold text-right">+967 783 948 888</p>
+                    <div dir="ltr" className="text-gray-600 font-mono font-bold text-right flex flex-col gap-1">
+                      <span>+967 78 394 8888</span>
+                      <span>+967 770 000 028</span>
+                      <span>+967 780 000 088</span>
+                    </div>
                   </div>
 
                   <div className="bg-light-bg rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition-shadow group">
