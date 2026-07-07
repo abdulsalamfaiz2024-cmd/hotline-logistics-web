@@ -10,7 +10,7 @@ export default function AboutPage() {
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6">من نحن</h1>
           <div className="w-24 h-1 bg-brand-red mx-auto lg:mx-0 rounded-full mb-8" />
           <p className="text-xl text-gray-300 font-medium leading-relaxed max-w-3xl">
-            تأسست الشركة في عام 2009 في صنعاء، واستطاعت أن توجد لها موطئ قدم بين كبرى الشركات العاملة في هذا المجال. شركتنا متخصصة ورائدة في الشحن والنقل عبر جميع المنافذ البحرية والبرية والجوية سواء للأفراد أو الشركات أو المؤسسات.
+            هوت لاين الدولية للخدمات الملاحية شركة متخصصة في تقديم حلول الشحن والنقل والخدمات اللوجستية المتكاملة على المستويين الإقليمي والدولي. نعمل على ربط الأسواق والموانئ والموردين والعملاء من خلال منظومة تشغيلية احترافية تضمن سهولة الحركة التجارية وسرعة الإنجاز وتقليل التحديات التشغيلية التي تواجه العملاء. لقد مكنتنا خبرتنا الطويلة من خدمة العديد من القطاعات التجارية والصناعية، وتقديم حلول مرنة تتناسب مع مختلف أنواع الشحنات والبضائع مهما كانت طبيعتها أو وجهتها.
           </p>
         </div>
       </section>
@@ -22,14 +22,14 @@ export default function AboutPage() {
             <div className="bg-white p-12 rounded-2xl shadow-xl border-t-4 border-primary">
               <h2 className="text-3xl font-bold text-primary mb-6">رؤيتنا</h2>
               <p className="text-gray-600 leading-relaxed font-medium text-lg">
-                أن نكون الشريان الأبرز لربط اليمن بالاقتصاد العالمي، وأن نُمكّن التجار وأصحاب المصانع من تحقيق أهدافهم بأقل تكلفة، دون أن تكون المخاطر الملاحية عائقاً أمام أعمالهم، مستبقين التحديات برؤية تقنية ولوجستية مبدعة.
+                أن نكون الخيار الأول في قطاع الخدمات الملاحية واللوجستية في المنطقة، وأن نُعرف كشريك استراتيجي موثوق يقدم قيمة حقيقية لعملائه من خلال حلول مبتكرة وخدمات عالية الجودة.
               </p>
             </div>
             
             <div className="bg-white p-12 rounded-2xl shadow-xl border-t-4 border-brand-red">
-              <h2 className="text-3xl font-bold text-primary mb-6">مهمتنا</h2>
+              <h2 className="text-3xl font-bold text-primary mb-6">رسالتنا</h2>
               <p className="text-gray-600 leading-relaxed font-medium text-lg">
-                تقديم خدمات النقل البحري والبري بموثوقية تامة وكفاءة زمانية ومكانية مطلقة. نلتزم بناء جسور من الشفافية والتواصل المباشر مع عُملائنا، وتبسيط الإجراءات إلى أقصى حد لنجاح كافة الأطراف.
+                توفير خدمات شحن ولوجستيات متكاملة تجمع بين السرعة والكفاءة والموثوقية، مع التركيز على بناء علاقات طويلة الأمد مع عملائنا قائمة على الثقة والالتزام والشفافية.
               </p>
             </div>
           </div>
@@ -39,30 +39,30 @@ export default function AboutPage() {
       {/* Core Values */}
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 lg:px-8 text-center">
-          <h2 className="text-4xl font-extrabold text-primary mb-16">قيمنا المؤسسية</h2>
+          <h2 className="text-4xl font-extrabold text-primary mb-16">لماذا تختار هوت لاين؟</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
              <div className="p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center font-bold text-2xl mx-auto mb-6">1</div>
-               <h3 className="text-xl font-bold text-primary mb-3">الالتزام (Commitment)</h3>
-               <p className="text-sm font-medium text-gray-500">الوفاء بوعود الوصول والأسعار مهما قست الظروف المحيطة.</p>
+               <h3 className="text-xl font-bold text-primary mb-3">خبرة طويلة</h3>
+               <p className="text-sm font-medium text-gray-500">أكثر من 15 عاماً من العمل المستمر في قطاع الشحن والخدمات اللوجستية.</p>
              </div>
              
              <div className="p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
                <div className="w-16 h-16 bg-brand-red text-white rounded-full flex items-center justify-center font-bold text-2xl mx-auto mb-6">2</div>
-               <h3 className="text-xl font-bold text-primary mb-3">الشفافية (Transparency)</h3>
-               <p className="text-sm font-medium text-gray-500">إطلاع العميل على كافة الحقائق والمستجدات بشكل فوري ومباشر.</p>
+               <h3 className="text-xl font-bold text-primary mb-3">سرعة الاستجابة</h3>
+               <p className="text-sm font-medium text-gray-500">فريق متخصص يتابع العمليات بشكل مستمر ويقدم حلولاً سريعة وفعالة.</p>
              </div>
 
              <div className="p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center font-bold text-2xl mx-auto mb-6">3</div>
-               <h3 className="text-xl font-bold text-primary mb-3">الابتكار (Innovation)</h3>
-               <p className="text-sm font-medium text-gray-500">تطوير حلول جديدة لتفادي التأخيرات وتقليل نفقات الأرضيات المكلفة.</p>
+               <h3 className="text-xl font-bold text-primary mb-3">شبكة واسعة</h3>
+               <p className="text-sm font-medium text-gray-500">تغطية تشغيلية تشمل اليمن والسعودية والإمارات وعمان وجيبوتي.</p>
              </div>
 
              <div className="p-8 border border-gray-100 rounded-xl hover:shadow-lg transition-shadow">
                <div className="w-16 h-16 bg-brand-red text-white rounded-full flex items-center justify-center font-bold text-2xl mx-auto mb-6">4</div>
-               <h3 className="text-xl font-bold text-primary mb-3">السرعة (Agility)</h3>
-               <p className="text-sm font-medium text-gray-500">سرعة الاستجابة واتخاذ القرارات البديلة عند انسداد الطرق أو الأرصفة.</p>
+               <h3 className="text-xl font-bold text-primary mb-3">موثوقية عالية</h3>
+               <p className="text-sm font-medium text-gray-500">نلتزم بأعلى معايير الجودة والدقة والشفافية في جميع مراحل العمل.</p>
              </div>
           </div>
         </div>

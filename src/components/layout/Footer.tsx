@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h3 className="text-lg font-bold text-white mb-2">فروعنا ومكاتبنا</h3>
             <ul className="flex flex-col gap-3 font-medium text-gray-400">
-              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">الإدارة العامة صنعاء: شارع المطار أمام صحيفة الثورة</li>
+              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">الإدارة العامة صنعاء: شارع الخمسين - خلف سنامول</li>
               <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع الحديدة: شارع الميناء أمام مطعم صنعاء</li>
               <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع شحن</li>
               <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع جيبوتي</li>
@@ -53,14 +53,14 @@ export default function Footer() {
             <div className="flex flex-col gap-4 text-sm font-medium text-gray-400">
               <div className="flex items-start gap-3 group">
                 <MapPin className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
-                <span>صنعاء - شارع المطار<br/>أمام صحيفة الثورة</span>
+                <span>صنعاء - شارع الخمسين<br/>خلف سنامول</span>
               </div>
               <div className="flex items-start gap-3 group">
                 <Phone className="text-brand-blue group-hover:text-brand-red transition-colors mt-1" size={20} />
                 <div className="flex flex-col gap-1">
-                  <span dir="ltr" className="font-mono tracking-widest">+967 78 394 8888</span>
-                  <span dir="ltr" className="font-mono tracking-widest">+967 770 000 028</span>
                   <span dir="ltr" className="font-mono tracking-widest">+967 780 000 088</span>
+                  <span dir="ltr" className="font-mono tracking-widest">+967 770 000 028</span>
+                  <span dir="ltr" className="font-mono tracking-widest">+967 783948888</span>
                 </div>
               </div>
               <div className="flex items-center gap-3 group">

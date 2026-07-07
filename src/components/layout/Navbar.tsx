@@ -38,7 +38,7 @@ export default function Navbar() {
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-brand-red" />
                 <div className="flex gap-2 font-mono tracking-wider">
-                  <span dir="ltr">+967 78 394 8888</span>
+                  <span dir="ltr">+967 780 000 088</span>
                   <span className="hidden lg:inline text-gray-400">|</span>
                   <span dir="ltr" className="hidden lg:inline">+967 770 000 028</span>
                 </div>

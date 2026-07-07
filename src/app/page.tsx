@@ -42,7 +42,7 @@ export default function Home() {
               </h3>
               <div className="w-20 h-1 bg-brand-red rounded-full mb-8" />
               <p className="text-gray-600 text-lg leading-relaxed mb-8 font-medium">
-                تأسست الشركة في عام 2009 في صنعاء، واستطاعت أن توجد لها موطئ قدم بين كبرى الشركات العاملة في هذا المجال. شركتنا متخصصة ورائدة في الشحن والنقل عبر جميع المنافذ البحرية والبرية والجوية سواء للأفراد أو الشركات أو المؤسسات.
+                هوت لاين الدولية للخدمات الملاحية شركة متخصصة في تقديم حلول الشحن والنقل والخدمات اللوجستية المتكاملة على المستويين الإقليمي والدولي. نعمل على ربط الأسواق والموانئ والموردين من خلال منظومة تشغيلية احترافية تضمن سهولة الحركة التجارية وسرعة الإنجاز.
               </p>
               <Link href="/about" className="inline-flex items-center gap-2 text-primary hover:text-brand-red font-bold text-lg transition-colors group">
                 اقرأ المزيد عن قصتنا <ArrowLeft size={20} className="group-hover:-translate-x-2 transition-transform" />
@@ -69,10 +69,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: "خدمات الاستيراد والتصدير", image: "/images/Freight.jpeg", icon: <Anchor size={24} />, desc: "نوفر لكم الحاويات بجميع أنواعها وأحجامها من وإلى جميع دول العالم." },
-              { title: "خدمة الشحن الجوي", image: "/images/air_freight.png", icon: <Plane size={24} />, desc: "خدمة استلام وتوصيل الشحنات المرسلة إليكم جواً إلى مطار صنعاء لنختصر لكم الوقت." },
-              { title: "الخدمات اللوجيستية", image: "/images/service-5.jpg", icon: <Globe size={24} />, desc: "نسعى باستمرار لتقديم أفضل الخدمات الممكنة وتطبيق أعلى المعايير لتعزيز الثقة وتحقيق أهدافكم." },
-              { title: "خدمات الشحن البري", image: "/images/road_freight.jpg", icon: <Truck size={24} />, desc: "شحن ونقل البضائع بمختلف أنواعها من الموانئ أو المنافذ البرية إلى مخازن عملائنا بأسطول نقل آمن وسريع." },
+              { title: "خدمات الاستيراد والتصدير", image: "/images/Freight.jpeg", icon: <Anchor size={24} />, desc: "نوفر حلول شحن بحري متكاملة تشمل الحاويات الكاملة والمجزئة مع متابعة دقيقة لجميع مراحل الشحن ابتداءً من نقطة الانطلاق وحتى التسليم النهائي." },
+              { title: "خدمة الشحن الجوي", image: "/images/air_freight.png", icon: <Plane size={24} />, desc: "نقدم خدمات الشحن الجوي السريع التي تضمن وصول البضائع بأقصى سرعة ممكنة، ونساعد عملاءنا على التعامل مع الشحنات الحساسة والعاجلة بكفاءة عالية." },
+              { title: "الخدمات اللوجيستية", image: "/images/service-5.jpg", icon: <Globe size={24} />, desc: "نقدم حلولاً لوجستية متكاملة تشمل التخطيط التشغيلي، إدارة سلاسل الإمداد، التنسيق بين الجهات المختلفة، متابعة الشحنات، وإدارة عمليات التسليم." },
+              { title: "خدمات الشحن البري", image: "/images/road_freight.jpg", icon: <Truck size={24} />, desc: "تمتلك الشركة شبكة نقل بري فعالة تربط الموانئ والمنافذ والمخازن والأسواق التجارية، وتضمن نقل البضائع بأمان وكفاءة مع الالتزام بالجداول الزمنية." },
               { title: "خدمات الشحن الجزئي", image: "/images/warehouse_solutions.jpg", icon: <Package size={24} />, desc: "شحن الطرود والبضائع من دولة الصين وإيصالها إليكم." },
               { title: "خدمات نقل الموانئ", image: "/images/port.png", icon: <Users size={24} />, desc: "شحن ونقل البضائع عبر ميناء جيبوتي إلى ميناء الصليف، ومن ميناء الحديدة إلى أي مكان في الجمهورية اليمنية." }
             ].map((service, i) => (
@@ -115,40 +115,40 @@ export default function Home() {
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
                 <Zap size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-xl font-bold mb-3">السرعة</h3>
-              <p className="text-gray-300 font-medium leading-relaxed text-sm">السرعة في تقديم الخدمات لعملائنا.</p>
+              <h3 className="text-xl font-bold mb-3">خبرة طويلة</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">أكثر من خمسة عشر عاماً من العمل المستمر في قطاع الشحن والخدمات اللوجستية.</p>
             </div>
             
             <div className="flex flex-col items-center">
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
                 <ShieldCheck size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-xl font-bold mb-3">الموثوقية</h3>
-              <p className="text-gray-300 font-medium leading-relaxed text-sm">الموثوقية في التعامل مع احتياجات العملاء.</p>
+              <h3 className="text-xl font-bold mb-3">سرعة الاستجابة</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">فريق متخصص يتابع العمليات بشكل مستمر ويقدم حلولاً سريعة وفعالة.</p>
             </div>
 
             <div className="flex flex-col items-center">
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
                 <Globe size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-xl font-bold mb-3">شبكة واسعة</h3>
-              <p className="text-gray-300 font-medium leading-relaxed text-sm">شبكة واسعة لفروعنا ومكاتبنا المتواجدة بالقرب منكم.</p>
+              <h3 className="text-xl font-bold mb-3">شبكة إقليمية واسعة</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">تغطية تشغيلية تشمل اليمن والسعودية والإمارات وعمان وجيبوتي والممرات التجارية الرئيسية.</p>
             </div>
 
             <div className="flex flex-col items-center">
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
                 <CheckCircle size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-xl font-bold mb-3">جودة التسليم</h3>
-              <p className="text-gray-300 font-medium leading-relaxed text-sm">وصول بضائعكم بجودتها كما تم استلامها.</p>
+              <h3 className="text-xl font-bold mb-3">موثوقية عالية</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">نلتزم بأعلى معايير الجودة والدقة والشفافية في جميع مراحل العمل.</p>
             </div>
 
             <div className="flex flex-col items-center">
               <div className="bg-white/10 p-6 rounded-full mb-6 relative group border border-white/5">
                 <Headphones size={40} className="text-brand-red group-hover:scale-110 transition-transform" />
               </div>
-              <h3 className="text-xl font-bold mb-3">الاستشارات</h3>
-              <p className="text-gray-300 font-medium leading-relaxed text-sm">تقديم استشارات خاصة لعملائنا الكرام حول جميع خدماتنا.</p>
+              <h3 className="text-xl font-bold mb-3">خدمة عملاء احترافية</h3>
+              <p className="text-gray-300 font-medium leading-relaxed text-sm">نؤمن بأن نجاحنا يبدأ من رضا عملائنا، لذلك نحرص على تقديم تجربة متميزة في كل خطوة.</p>
             </div>
           </div>
         </div>

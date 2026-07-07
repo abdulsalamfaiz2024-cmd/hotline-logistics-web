@@ -31,7 +31,7 @@ export default function ServicesPage() {
                 <h2 className="text-3xl font-bold text-primary">الشحن البحري</h2>
               </div>
               <p className="text-gray-600 leading-relaxed font-medium mb-6 text-lg">
-                نقدم خدمات شحن بحري مخصصة للحاويات الكاملة (FCL) والمجزأة (LCL). بفضل شراكاتنا الاستراتيجية مع كبار ملاك السفن والخطوط الملاحية، نضمن توفير مساحات مؤكدة على ظهر السفن لعملائنا وتوفير حاويات فارغة بمواصفات مطابقة لطبيعة البضائع.
+                نوفر حلول شحن بحري متكاملة تشمل الحاويات الكاملة والمجزئة مع متابعة دقيقة لجميع مراحل الشحن ابتداءً من نقطة الانطلاق وحتى التسليم النهائي.
               </p>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-primary font-bold">
                 <li>• شحنات FCL / LCL</li>
@@ -53,7 +53,7 @@ export default function ServicesPage() {
                 <h2 className="text-3xl font-bold text-primary">الشحن الجوي</h2>
               </div>
               <p className="text-gray-600 leading-relaxed font-medium mb-6 text-lg">
-                نوفر خدمات شحن طيران سريعة وموثوقة لضمان وصول بضائعك العاجلة في الوقت المحدد. نتعاون مع أفضل شركات الطيران العالمية لتأمين مساحات شحن تلبي متطلباتك بكفاءة عالية وأسعار مدروسة.
+                عندما يكون الوقت عاملاً حاسماً، نقدم خدمات الشحن الجوي السريع التي تضمن وصول البضائع بأقصى سرعة ممكنة. نساعد عملاءنا على التعامل مع الشحنات الحساسة والعاجلة بكفاءة عالية مع توفير حلول مرنة تناسب مختلف الاحتياجات.
               </p>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-primary font-bold">
                 <li>• شحنات جوية عاجلة</li>
@@ -77,7 +77,7 @@ export default function ServicesPage() {
                 <h2 className="text-3xl font-bold text-primary">النقل البري الداخلي</h2>
               </div>
               <p className="text-gray-600 leading-relaxed font-medium mb-6 text-lg">
-                يُعد النقل البري في اليمن تحدياً مستقلاً، ولذلك نمتلك أسطولاً وشراكات نقل لتأمين توصيل حاوياتك الثقيلة والخفيفة من ساحة الميناء إلى المستودع الخاص بك بشكل آمن، مع أخذ الظروف الأمنية والطرق في الحسبان.
+                تمتلك الشركة شبكة نقل بري فعالة تربط الموانئ والمنافذ والمخازن والأسواق التجارية، وتضمن نقل البضائع بأمان وكفاءة مع الالتزام بالجداول الزمنية المحددة.
               </p>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-primary font-bold">
                 <li>• تريلات وشاحنات مجهزة</li>
@@ -97,7 +97,7 @@ export default function ServicesPage() {
                    <Users size={28} className="text-brand-red" />
                    <h3 className="text-2xl font-bold text-primary">الاستشارات اللوجستية</h3>
                  </div>
-                 <p className="text-gray-600 font-medium leading-relaxed">تخطيط معقد لسلاسل الإمداد للشركات الكبرى، وتحجيم المخاطر المترتبة على الأزمات العالمية وتقلبات السوق.</p>
+                 <p className="text-gray-600 font-medium leading-relaxed">نقدم حلولاً لوجستية متكاملة تشمل التخطيط التشغيلي، إدارة سلاسل الإمداد، التنسيق بين الجهات المختلفة، متابعة الشحنات، وإدارة عمليات التسليم، مما يساعد في تحسين الكفاءة وتقليل التكاليف.</p>
                </div>
              </div>
 
