@@ -116,36 +116,45 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* FAQ Accordion Placeholder */}
       <section className="py-20 bg-white">
          <div className="max-w-3xl mx-auto px-4">
            <h2 className="text-3xl font-bold text-center text-primary mb-12 flex items-center justify-center gap-3">
              <FileQuestion className="text-brand-red" /> الأسئلة الشائعة
            </h2>
-           <div className="space-y-4">
-             {/* Note: Dummy visual states for the accordion */}
+            <div className="space-y-4">
+              {/* FAQ 1 */}
               <div className="border border-gray-200 rounded-lg p-5 cursor-pointer hover:bg-gray-50">
-                <div className="flex justify-between items-center font-bold text-primary">
-                  <span>ما هي مدة وصول الشحنة البحرية؟</span>
+                <div className="flex justify-between items-center font-bold text-primary mb-3">
+                  <span>ما هي الدول التي يغطيها نطاق خدمات هوت لاين الملاحية؟</span>
                   <ChevronDown size={20} className="text-brand-red" />
                 </div>
+                <p className="text-gray-600 text-sm font-medium leading-relaxed mt-2">
+                  تشمل تغطيتنا التشغيلية كلاً من الجمهورية اليمنية 🇾🇪، المملكة العربية السعودية 🇸🇦، الإمارات العربية المتحدة 🇦🇪، سلطنة عمان 🇴🇲، وجمهورية جيبوتي 🇩🇯، مع القدرة على الوصول إلى أهم الموانئ والممرات التجارية الإقليمية والدولية.
+                </p>
               </div>
-             <div className="border border-gray-200 rounded-lg p-5 cursor-pointer bg-gray-50">
-               <div className="flex justify-between items-center font-bold text-primary mb-3">
-                 <span>هل توفرون خدمة التخزين المؤقت في موانئ الوصول؟</span>
-                 <ChevronDown size={20} className="text-brand-red transform rotate-180" />
-               </div>
-               <p className="text-gray-600 text-sm font-medium leading-relaxed">
-                 نعم، نقوم بإدارة تخزين الحاويات والبضائع في مناطق مخصصة داخل الموانئ وفي مستودعاتنا اللوجستية الخاصة في مدن رئيسية.
-               </p>
-             </div>
-             <div className="border border-gray-200 rounded-lg p-5 cursor-pointer hover:bg-gray-50">
-               <div className="flex justify-between items-center font-bold text-primary">
-                 <span>متى يجب علي دفع أجور الشحن؟</span>
-                 <ChevronDown size={20} className="text-brand-red" />
-               </div>
-             </div>
-           </div>
+              
+              {/* FAQ 2 */}
+              <div className="border border-gray-200 rounded-lg p-5 cursor-pointer bg-gray-50">
+                <div className="flex justify-between items-center font-bold text-primary mb-3">
+                  <span>ما هي الخدمات والحلول اللوجستية التي توفرها الشركة؟</span>
+                  <ChevronDown size={20} className="text-brand-red transform rotate-180" />
+                </div>
+                <p className="text-gray-600 text-sm font-medium leading-relaxed mt-2">
+                  نقدم حلولاً لوجستية وشحن متكاملة تشمل الشحن البحري للحاويات الكاملة والمجزأة، الشحن الجوي السريع عبر الخطوط العالمية ومطار صنعاء، النقل البري الداخلي لتوصيل البضائع من الموانئ إلى مخازنكم، بالإضافة إلى التخطيط التشغيلي وإدارة سلاسل الإمداد والتخزين.
+                </p>
+              </div>
+              
+              {/* FAQ 3 */}
+              <div className="border border-gray-200 rounded-lg p-5 cursor-pointer hover:bg-gray-50">
+                <div className="flex justify-between items-center font-bold text-primary mb-3">
+                  <span>ما الذي يميز شركة هوت لاين عن شركات الشحن الأخرى؟</span>
+                  <ChevronDown size={20} className="text-brand-red" />
+                </div>
+                <p className="text-gray-600 text-sm font-medium leading-relaxed mt-2">
+                  نتميز بخبرة طويلة تمتد لأكثر من 15 عاماً (منذ تأسيس الشركة عام 2009)، وفريق عمل متخصص يتابع العمليات بشكل مستمر لتقديم سرعة استجابة فائقة، وشبكة تغطية إقليمية واسعة، والتزام تام بأعلى معايير الجودة والشفافية والموثوقية لضمان وصول شحناتكم بسلامة.
+                </p>
+              </div>
+            </div>
          </div>
       </section>
 
