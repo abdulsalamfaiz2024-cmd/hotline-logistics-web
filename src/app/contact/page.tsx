@@ -49,7 +49,7 @@ export default function ContactPage() {
   const inputBase = "w-full bg-white border rounded-xl px-4 py-3.5 text-gray-800 font-medium focus:outline-none focus:ring-2 focus:ring-brand-red/30 focus:border-brand-red transition-all duration-200 placeholder:text-gray-400";
 
   const branches = [
-    { name: "الإدارة العامة — صنعاء", detail: "شارع الخمسين - خلف سما مول - مبنا زبيدة كافي - الدور الخامس", main: true },
+    { name: "الإدارة العامة — صنعاء", detail: "شارع الخمسين - خلف سما مول - مبنى زُبيدة كافي - الدور الخامس", main: true },
     { name: "فرع الحديدة", detail: "شارع الميناء أمام مطعم صنعاء", main: false },
     { name: "فرع الشحن", detail: "", main: false },
     { name: "فرع جيبوتي", detail: "", main: false },
@@ -106,7 +106,7 @@ export default function ContactPage() {
                       <MapPin size={24} className="text-primary" />
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-1">المقر الرئيسي</h3>
-                    <p className="text-gray-600 font-medium text-sm">صنعاء — شارع الخمسين - خلف سما مول<br/>مبنا زبيدة كافي - الدور الخامس</p>
+                    <p className="text-gray-600 font-medium text-sm">صنعاء — شارع الخمسين - خلف سما مول<br/>مبنى زُبيدة كافي - الدور الخامس</p>
                   </div>
 
                   <div className="bg-light-bg rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition-shadow group">
@@ -277,7 +277,7 @@ export default function ContactPage() {
       <section className="bg-light-bg py-16 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <h2 className="text-3xl font-bold text-primary text-center mb-3">موقعنا على الخريطة</h2>
-          <p className="text-gray-500 font-medium text-center mb-10">الإدارة العامة — شارع الخمسين - خلف سما مول - مبنا زبيدة كافي - الدور الخامس، صنعاء</p>
+          <p className="text-gray-500 font-medium text-center mb-10">الإدارة العامة — شارع الخمسين - خلف سما مول - مبنى زُبيدة كافي - الدور الخامس، صنعاء</p>
           <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 aspect-video max-h-[500px]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.7!2d44.2191!3d15.3547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDIxJzE3LjAiTiA0NMKwMTMnMDguOCJF!5e0!3m2!1sar!2sye!4v1700000000000!5m2!1sar!2sye"
