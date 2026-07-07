@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = { title: "من نحن - هوت لاين" };
 
 export default function AboutPage() {
@@ -5,7 +7,14 @@ export default function AboutPage() {
     <main className="flex flex-col min-h-screen pt-24 bg-white">
       {/* Intro */}
       <section className="py-20 lg:py-32 relative overflow-hidden bg-primary text-white">
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('/images/hero_cargo_ship.png')] bg-cover opacity-10 blur-sm pointer-events-none" />
+        <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 blur-sm pointer-events-none">
+          <Image 
+            src="/images/hero_cargo_ship.png" 
+            alt="Cargo Ship" 
+            fill 
+            className="object-cover"
+          />
+        </div>
         <div className="max-w-7xl mx-auto px-4 lg:px-8 relative z-10 text-center lg:text-right">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6">من نحن</h1>
           <div className="w-24 h-1 bg-brand-red mx-auto lg:mx-0 rounded-full mb-8" />

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Anchor, Truck, Users, Zap, ShieldCheck, ArrowLeft, Package, Plane, Globe, CheckCircle, Headphones } from "lucide-react";
 
 export default function Home() {
@@ -6,10 +7,15 @@ export default function Home() {
     <main className="flex min-h-screen flex-col overflow-hidden bg-white">
       {/* A. Hero Section */}
       <section className="relative w-full min-h-[90vh] flex items-center justify-center pt-20">
-        <div 
-          className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/shipping.jpeg')" }}
-        />
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/images/shipping.jpeg" 
+            alt="Hotline International Shipping" 
+            fill 
+            priority
+            className="object-cover object-center"
+          />
+        </div>
         <div className="absolute inset-0 z-0 bg-gradient-to-b from-primary/90 via-primary/70 to-black/80" />
 
         <div className="relative z-10 text-center max-w-5xl px-4 mt-8 md:mt-0">
@@ -50,7 +56,13 @@ export default function Home() {
             </div>
             <div className="lg:w-1/2 relative">
               <div className="absolute -inset-4 bg-gray-100 rounded-2xl transform rotate-3 -z-10" />
-              <img src="/images/glopal.png" alt="Company Legacy" className="w-full h-[400px] object-cover rounded-2xl shadow-2xl" />
+              <Image 
+                src="/images/glopal.png" 
+                alt="Company Legacy" 
+                width={600} 
+                height={400} 
+                className="w-full h-[400px] object-cover rounded-2xl shadow-2xl" 
+              />
             </div>
           </div>
         </div>
@@ -79,7 +91,13 @@ export default function Home() {
               <div key={i} className="bg-white overflow-hidden rounded-2xl shadow-lg border border-gray-100 flex flex-col group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-48 w-full overflow-hidden">
                   <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors z-10" />
-                  <img src={service.image} alt={service.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <Image 
+                    src={service.image} 
+                    alt={service.title} 
+                    width={400} 
+                    height={250} 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                  />
                   <div className="absolute top-4 right-4 z-20 bg-white/90 backdrop-blur p-3 rounded-lg shadow-md text-brand-red">
                     {service.icon}
                   </div>

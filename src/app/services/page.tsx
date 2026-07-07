@@ -1,5 +1,6 @@
 import { Anchor, Truck, Users, FileQuestion, ChevronDown, Package, Plane } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata = { title: "خدماتنا - هوت لاين" };
 
@@ -23,7 +24,7 @@ export default function ServicesPage() {
           {/* Service 1 */}
           <div className="bg-white rounded-2xl shadow-md p-8 md:p-12 border border-gray-100 flex flex-col md:flex-row gap-8 items-start">
             <div className="w-full md:w-1/3 shrink-0">
-              <img src="/images/Freight.jpeg" alt="الشحن البحري" className="w-full h-56 object-cover rounded-2xl shadow-md" />
+              <Image src="/images/Freight.jpeg" alt="الشحن البحري" width={600} height={350} className="w-full h-56 object-cover rounded-2xl shadow-md" />
             </div>
             <div className="w-full md:w-2/3">
               <div className="flex items-center gap-3 mb-4">
@@ -45,7 +46,7 @@ export default function ServicesPage() {
           {/* Service 1.5 - Air Freight */}
           <div className="bg-white rounded-2xl shadow-md p-8 md:p-12 border border-gray-100 flex flex-col md:flex-row gap-8 items-start">
             <div className="w-full md:w-1/3 shrink-0">
-              <img src="/images/air_freight.png" alt="الشحن الجوي" className="w-full h-56 object-cover rounded-2xl shadow-md" />
+              <Image src="/images/air_freight.png" alt="الشحن الجوي" width={600} height={350} className="w-full h-56 object-cover rounded-2xl shadow-md" />
             </div>
             <div className="w-full md:w-2/3">
               <div className="flex items-center gap-3 mb-4">
@@ -69,7 +70,7 @@ export default function ServicesPage() {
           {/* Service 3 */}
           <div className="bg-white rounded-2xl shadow-md p-8 md:p-12 border border-gray-100 flex flex-col md:flex-row gap-8 items-start">
             <div className="w-full md:w-1/3 shrink-0">
-              <img src="/images/road_freight.jpg" alt="النقل البري الداخلي" className="w-full h-56 object-cover rounded-2xl shadow-md" />
+              <Image src="/images/road_freight.jpg" alt="النقل البري الداخلي" width={600} height={350} className="w-full h-56 object-cover rounded-2xl shadow-md" />
             </div>
             <div className="w-full md:w-2/3">
               <div className="flex items-center gap-3 mb-4">
@@ -91,7 +92,7 @@ export default function ServicesPage() {
           {/* Service 4 & 5 Mini-cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
              <div className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col">
-               <img src="/images/service-5.jpg" alt="الاستشارات اللوجستية" className="w-full h-48 object-cover" />
+               <Image src="/images/service-5.jpg" alt="الاستشارات اللوجستية" width={500} height={300} className="w-full h-48 object-cover" />
                <div className="p-8">
                  <div className="flex items-center gap-3 mb-4">
                    <Users size={28} className="text-brand-red" />
@@ -102,7 +103,7 @@ export default function ServicesPage() {
              </div>
 
              <div className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100 flex flex-col">
-               <img src="/images/warehouse_solutions.jpg" alt="خدمات التخزين" className="w-full h-48 object-cover" />
+               <Image src="/images/warehouse_solutions.jpg" alt="خدمات التخزين" width={500} height={300} className="w-full h-48 object-cover" />
                <div className="p-8">
                  <div className="flex items-center gap-3 mb-4">
                    <Package size={28} className="text-brand-red" />
