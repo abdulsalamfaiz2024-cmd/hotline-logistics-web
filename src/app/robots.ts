@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.hotline-int.com/sitemap.xml",
+    sitemap: "https://www.hotline-int-ye.com/sitemap.xml",
   };
 }

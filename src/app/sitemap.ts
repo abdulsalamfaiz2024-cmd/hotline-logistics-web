@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.hotline-int.com";
+  const baseUrl = "https://www.hotline-int-ye.com";
   const routes = ["", "/about", "/services", "/contact", "/privacy", "/terms"];
 
   return routes.map((route) => ({
