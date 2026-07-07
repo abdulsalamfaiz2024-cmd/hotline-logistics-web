@@ -95,7 +95,7 @@ export default function ContactPage() {
                       <Mail size={24} className="text-brand-blue" />
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-1">البريد الإلكتروني</h3>
-                    <p className="text-gray-600 font-mono font-bold text-sm">info@hotline-int.com</p>
+                    <p className="text-gray-600 font-mono font-bold text-sm">sales@hotline-int-ye.com</p>
                   </div>
 
                   <div className="bg-light-bg rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition-shadow group">

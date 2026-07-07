@@ -62,7 +62,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3 group">
                 <Mail className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
-                <span className="font-mono">info@hotline-int.com</span>
+                <span className="font-mono">sales@hotline-int-ye.com</span>
               </div>
             </div>
             <Link href="/contact" className="mt-2 w-full text-center bg-gray-800 hover:bg-brand-red hover:text-white transition-colors text-white py-3 rounded-lg font-bold border border-gray-700">
