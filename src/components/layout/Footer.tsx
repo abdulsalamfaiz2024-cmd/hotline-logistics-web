@@ -57,7 +57,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-1">
                   <span dir="ltr" className="font-mono tracking-widest">+967 780 000 088</span>
                   <span dir="ltr" className="font-mono tracking-widest">+967 770 000 028</span>
-                  <span dir="ltr" className="font-mono tracking-widest">+967 783948888</span>
+                  <span dir="ltr" className="font-mono tracking-widest">+967 783 948 888</span>
                 </div>
               </div>
               <div className="flex items-center gap-3 group">

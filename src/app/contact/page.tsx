@@ -86,7 +86,7 @@ export default function ContactPage() {
                     <div dir="ltr" className="text-gray-600 font-mono font-bold text-right flex flex-col gap-1">
                       <span>+967 780 000 088</span>
                       <span>+967 770 000 028</span>
-                      <span>+967 783948888</span>
+                      <span>+967 783 948 888</span>
                     </div>
                   </div>
 
