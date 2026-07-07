@@ -9,7 +9,7 @@ export default function FloatingWhatsApp() {
   const message = "مرحباً فريق هوت لاين! لقد زرت موقعكم الإلكتروني وأود الاستفسار عن خدماتكم اللوجستية (الاستيراد والتصدير، الشحن الجوي، الشحن البري). هل يمكنني الحصول على استشارة وعرض سعر؟";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-  const email = "sales@hotline-int-ye.com";
+  const email = "contact@hotline-int-ye.com";
   const emailSubject = "استفسار بخصوص خدمات الشحن والنقل";
   const mailToUrl = `mailto:${email}?subject=${encodeURIComponent(emailSubject)}`;
 

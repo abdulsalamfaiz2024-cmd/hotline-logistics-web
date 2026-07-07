@@ -65,7 +65,7 @@ export default function PrivacyPage() {
               <h2 className="text-2xl font-bold text-primary mb-4">6. التواصل معنا</h2>
               <p>
                 إذا كان لديك أي استفسار حول سياسة الخصوصية هذه، يمكنك مراسلتنا مباشرة عبر البريد الإلكتروني:
-                <span className="block font-mono font-bold text-brand-red mt-2">sales@hotline-int-ye.com</span>
+                <span className="block font-mono font-bold text-brand-red mt-2">contact@hotline-int-ye.com</span>
               </p>
             </div>
 
