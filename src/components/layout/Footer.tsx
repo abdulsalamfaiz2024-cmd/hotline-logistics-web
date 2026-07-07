@@ -76,8 +76,9 @@ export default function Footer() {
         <div className="pt-8 border-t border-gray-800/50 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-medium text-gray-500">
           <p>© {new Date().getFullYear()} Hotline International Logistics. All rights reserved.</p>
           <div className="flex gap-4">
-            <span className="cursor-not-allowed">Privacy Protocol</span>
-            <span className="cursor-not-allowed">Terms of Systems</span>
+            <Link href="/privacy" className="hover:text-brand-red transition-colors">سياسة الخصوصية</Link>
+            <span className="text-gray-700">|</span>
+            <Link href="/terms" className="hover:text-brand-red transition-colors">شروط الخدمة</Link>
           </div>
         </div>
 
