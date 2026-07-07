@@ -41,9 +41,6 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-white mb-2">فروعنا ومكاتبنا</h3>
             <ul className="flex flex-col gap-3 font-medium text-gray-400">
               <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">الإدارة العامة صنعاء: صنعاء - شارع الخمسين - خلف سما مول - مبنى زُبيدة كافي - الدور الخامس</li>
-              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع الحديدة: شارع الميناء أمام مطعم صنعاء</li>
-              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع شحن</li>
-              <li className="flex items-center gap-2 before:content-[''] before:block before:w-1.5 before:h-1.5 before:bg-brand-red before:rounded-full">فرع جيبوتي</li>
             </ul>
           </div>
 

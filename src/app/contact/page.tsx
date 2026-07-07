@@ -50,9 +50,6 @@ export default function ContactPage() {
 
   const branches = [
     { name: "الإدارة العامة — صنعاء", detail: "شارع الخمسين - خلف سما مول - مبنى زُبيدة كافي - الدور الخامس", main: true },
-    { name: "فرع الحديدة", detail: "شارع الميناء أمام مطعم صنعاء", main: false },
-    { name: "فرع الشحن", detail: "", main: false },
-    { name: "فرع جيبوتي", detail: "", main: false },
   ];
 
   return (
