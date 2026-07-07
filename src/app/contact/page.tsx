@@ -277,7 +277,7 @@ export default function ContactPage() {
           <p className="text-gray-500 font-medium text-center mb-10">الإدارة العامة — شارع الخمسين - خلف سما مول - مبنى زُبيدة كافي - الدور الخامس، صنعاء</p>
           <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 aspect-video max-h-[500px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.7!2d44.2191!3d15.3547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDIxJzE3LjAiTiA0NMKwMTMnMDguOCJF!5e0!3m2!1sar!2sye!4v1700000000000!5m2!1sar!2sye"
+              src="https://maps.google.com/maps?q=15.281808183738738,44.19911728364141&hl=ar&z=17&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}
