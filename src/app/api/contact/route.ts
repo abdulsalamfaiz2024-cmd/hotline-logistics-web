@@ -64,7 +64,7 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        from: "Hotline Website <contact@hotline-int-ye.com>",
+        from: "Hotline Website <onboarding@resend.dev>",
         to: ["contact@hotline-int-ye.com"],
         reply_to: email,
         subject: `استفسار جديد من: ${name}`,
