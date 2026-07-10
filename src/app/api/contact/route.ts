@@ -65,7 +65,7 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         from: "Hotline Website <onboarding@resend.dev>",
-        to: ["contact@hotline-int-ye.com"],
+        to: ["sadghotline@gmail.com"], // Must be your Resend registered email during testing
         reply_to: email,
         subject: `استفسار جديد من: ${name}`,
         html: htmlContent,
