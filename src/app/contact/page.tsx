@@ -71,7 +71,7 @@ export default function ContactPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            
+
             {/* Left Column: Contact Info */}
             <div className="space-y-10 order-2 lg:order-1">
               {/* Main Contact Cards */}
@@ -103,7 +103,7 @@ export default function ContactPage() {
                       <MapPin size={24} className="text-primary" />
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-1">المقر الرئيسي</h3>
-                    <p className="text-gray-600 font-medium text-sm">صنعاء — شارع الخمسين - خلف سما مول<br/>مبنى زُبيدة كافي - الدور الخامس</p>
+                    <p className="text-gray-600 font-medium text-sm">صنعاء — شارع الخمسين - خلف سما مول<br />مبنى زُبيدة كافي - الدور الخامس</p>
                   </div>
 
                   <div className="bg-light-bg rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition-shadow group">
@@ -111,7 +111,7 @@ export default function ContactPage() {
                       <Clock size={24} className="text-emerald-600" />
                     </div>
                     <h3 className="text-lg font-bold text-primary mb-1">ساعات العمل</h3>
-                    <p className="text-gray-600 font-medium text-sm">السبت – الخميس: 8ص – 5م<br/>طوارئ الموانئ: 24 ساعة</p>
+                    <p className="text-gray-600 font-medium text-sm">السبت – الخميس: 8ص – 5م<br />طوارئ الموانئ: 24 ساعة</p>
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@ export default function ContactPage() {
                   <form onSubmit={handleSubmit} className="space-y-5">
                     {/* Web3Forms Hidden Fields */}
                     <input type="hidden" name="access_key" value="4079a970-efee-4f16-be38-6ffbd88bede0" />
-                    <input type="hidden" name="subject" value="رسالة جديدة من موقع هوت لاين" />
+                    <input type="hidden" name="subject" value="قام عميل بارسال استفسار من داخل الموقع الاكتروني يرجئ التواصل معة في الحال" />
                     <input type="hidden" name="from_name" value="Hotline international for shipping, stevedoring and maritime services" />
                     <input type="hidden" name="redirect" value="" />
 
