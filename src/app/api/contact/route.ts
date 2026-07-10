@@ -64,10 +64,10 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        from: "Hotline Website <contact@hotline-int-ye.com>",
+        from: `New Client: ${name} <contact@hotline-int-ye.com>`,
         to: ["contact@hotline-int-ye.com"],
         reply_to: email,
-        subject: `استفسار جديد من: ${name}`,
+        subject: `New Client: ${name}`,
         html: htmlContent,
       }),
     });
