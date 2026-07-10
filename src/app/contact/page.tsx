@@ -5,6 +5,7 @@ import { MapPin, Phone, Mail, Clock, Building2, CheckCircle, AlertCircle, Send, 
 
 export default function ContactPage() {
   const [formState, setFormState] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState<string>("");
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   function validate(form: FormData): Record<string, string> {
@@ -37,11 +38,15 @@ export default function ContactPage() {
       });
       if (res.ok) {
         setFormState("success");
+        setErrorMessage("");
         (e.target as HTMLFormElement).reset();
       } else {
+        const data = await res.json().catch(() => ({}));
+        setErrorMessage(data.error || "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.");
         setFormState("error");
       }
-    } catch {
+    } catch (err: any) {
+      setErrorMessage(err?.message || "فشل الاتصال بالخادم. يرجى التحقق من اتصالك بالإنترنت.");
       setFormState("error");
     }
   }
@@ -229,11 +234,13 @@ export default function ContactPage() {
                       {errors.message && <p className="text-red-500 text-sm mt-1 font-medium flex items-center gap-1"><AlertCircle size={14} />{errors.message}</p>}
                     </div>
 
-                    {/* Error Banner */}
                     {formState === "error" && (
-                      <div className="bg-red-50 border border-red-200 text-red-700 rounded-xl p-4 flex items-center gap-3 font-medium">
-                        <AlertCircle size={20} />
-                        <span>حدث خطأ أثناء الإرسال. يرجى المحاولة مرة أخرى.</span>
+                      <div className="bg-red-50 border border-red-200 text-red-700 rounded-xl p-4 flex flex-col gap-1 font-medium text-right">
+                        <div className="flex items-center gap-3">
+                          <AlertCircle size={20} className="shrink-0" />
+                          <span>حدث خطأ أثناء الإرسال:</span>
+                        </div>
+                        <p style={{ direction: "ltr" }} className="text-xs text-red-600 font-mono mt-1 pr-8 leading-relaxed max-w-full overflow-hidden text-ellipsis whitespace-normal break-all">{errorMessage}</p>
                       </div>
                     )}
 
