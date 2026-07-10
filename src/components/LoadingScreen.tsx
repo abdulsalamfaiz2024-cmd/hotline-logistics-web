@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Ship, Anchor, Globe, Package } from "lucide-react";
+import { Ship, Anchor, Globe } from "lucide-react";
 
 export default function LoadingScreen() {
   const [currentFact, setCurrentFact] = useState(0);
@@ -62,7 +62,7 @@ export default function LoadingScreen() {
           transition={{ duration: 1 }}
           className="mb-8 text-3xl font-extrabold tracking-wide text-white md:text-5xl"
         >
-          هوت لاين للخدمات الملاحية
+          شركة هوت لاين انترناشيونال للشحن والتفريغ والخدمات الملاحية
         </motion.h1>
 
         {/* Small animated loader bar beneath */}

@@ -1,4 +1,4 @@
-export const metadata = { title: "تواصل معنا - هوت لاين" };
+export const metadata = { title: "تواصل معنا" };
 
 export default function ContactLayout({
   children,

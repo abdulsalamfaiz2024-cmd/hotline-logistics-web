@@ -10,7 +10,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <Image 
             src="/images/shipping.jpeg" 
-            alt="Hotline International Shipping" 
+            alt="Hotline international for shipping, stevedoring and maritime services" 
             fill 
             priority
             className="object-cover object-center"
@@ -48,7 +48,7 @@ export default function Home() {
               </h3>
               <div className="w-20 h-1 bg-brand-red rounded-full mb-8" />
               <p className="text-gray-600 text-lg leading-relaxed mb-8 font-medium">
-                هوت لاين الدولية للخدمات الملاحية شركة متخصصة في تقديم حلول الشحن والنقل والخدمات اللوجستية المتكاملة على المستويين الإقليمي والدولي. نعمل على ربط الأسواق والموانئ والموردين من خلال منظومة تشغيلية احترافية تضمن سهولة الحركة التجارية وسرعة الإنجاز.
+                شركة هوت لاين انترناشيونال للشحن والتفريغ والخدمات الملاحية شركة متخصصة في تقديم حلول الشحن والنقل والخدمات اللوجستية المتكاملة على المستويين الإقليمي والدولي. نعمل على ربط الأسواق والموانئ والموردين من خلال منظومة تشغيلية احترافية تضمن سهولة الحركة التجارية وسرعة الإنجاز.
               </p>
               <Link href="/about" className="inline-flex items-center gap-2 text-primary hover:text-brand-red font-bold text-lg transition-colors group">
                 اقرأ المزيد عن قصتنا <ArrowLeft size={20} className="group-hover:-translate-x-2 transition-transform" />
@@ -124,7 +124,7 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-extrabold mb-6">لماذا تختار "هوت لاين"؟</h2>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-6">لماذا تختار هوت لاين؟</h2>
             <div className="w-20 h-1 bg-brand-red mx-auto rounded-full" />
           </div>
 

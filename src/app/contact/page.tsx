@@ -86,7 +86,7 @@ export default function ContactPage() {
                     <div dir="ltr" className="text-gray-600 font-mono font-bold text-right flex flex-col gap-1">
                       <span>+967 780 000 088</span>
                       <span>+967 770 000 028</span>
-                      <span>+967 783 948 888</span>
+                      <span>+967 784 188 894</span>
                     </div>
                   </div>
 
@@ -160,7 +160,7 @@ export default function ContactPage() {
                     {/* Web3Forms Hidden Fields */}
                     <input type="hidden" name="access_key" value="3106b67f-db59-4f46-b358-49cc82e13a78" />
                     <input type="hidden" name="subject" value="رسالة جديدة من موقع هوت لاين" />
-                    <input type="hidden" name="from_name" value="Hotline Website" />
+                    <input type="hidden" name="from_name" value="Hotline international for shipping, stevedoring and maritime services" />
                     <input type="hidden" name="redirect" value="" />
 
                     {/* Full Name */}
@@ -284,7 +284,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Hotline International - Fifty Street, Sana'a"
+              title="Hotline international for shipping, stevedoring and maritime services - Fifty Street, Sana'a"
             />
           </div>
         </div>

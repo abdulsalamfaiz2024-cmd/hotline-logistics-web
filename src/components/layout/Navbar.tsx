@@ -60,7 +60,7 @@ export default function Navbar() {
           
           {/* Brand Logo */}
           <Link href="/" className="flex items-center relative z-10">
-            <img src="/images/logo_with_text.png?v=2" alt="Hotline International" className="h-12 md:h-16 w-auto object-contain" />
+            <img src="/images/logo_with_text.png?v=2" alt="Hotline international for shipping, stevedoring and maritime services" className="h-12 md:h-16 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav Nodes */}

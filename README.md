@@ -1,4 +1,4 @@
-# Hotline - Bilingual Shipping & Logistics Web Portal
+# Hotline international for shipping, stevedoring and maritime services
 
 **Live Demo**: [hotline-web-three.vercel.app](https://hotline-web-three.vercel.app/)
 

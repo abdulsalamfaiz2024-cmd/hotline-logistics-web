@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Column 1: System Identity */}
           <div className="flex flex-col gap-6">
             <Link href="/" className="inline-flex bg-white p-3 rounded-xl border border-white/10 self-start shadow-sm">
-              <img src="/images/logo_with_text.png?v=2" alt="Hotline International" className="h-10 w-auto object-contain" />
+              <img src="/images/logo_with_text.png?v=2" alt="Hotline international for shipping, stevedoring and maritime services" className="h-10 w-auto object-contain" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed font-medium">
               نظام لوجستي ذكي ومقاوم للأزمات يضمن لك عبور بضائعك نحو موانئ اليمن بسلامة مطلقة وبيانات لحظية.
@@ -57,7 +57,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-1">
                   <span dir="ltr" className="font-mono tracking-widest">+967 780 000 088</span>
                   <span dir="ltr" className="font-mono tracking-widest">+967 770 000 028</span>
-                  <span dir="ltr" className="font-mono tracking-widest">+967 783 948 888</span>
+                  <span dir="ltr" className="font-mono tracking-widest">+967 784 188 894</span>
                 </div>
               </div>
               <div className="flex items-center gap-3 group">
@@ -74,7 +74,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-gray-800/50 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-medium text-gray-500">
-          <p>© {new Date().getFullYear()} Hotline International Logistics. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Hotline international for shipping, stevedoring and maritime services. All rights reserved.</p>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-brand-red transition-colors">سياسة الخصوصية</Link>
             <span className="text-gray-700">|</span>

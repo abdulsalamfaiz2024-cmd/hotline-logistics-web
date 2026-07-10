@@ -2,7 +2,7 @@ import { Anchor, Truck, Users, FileQuestion, ChevronDown, Package, Plane } from 
 import Link from "next/link";
 import Image from "next/image";
 
-export const metadata = { title: "خدماتنا - هوت لاين" };
+export const metadata = { title: "خدماتنا" };
 
 export default function ServicesPage() {
   return (
