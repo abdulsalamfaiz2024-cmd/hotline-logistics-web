@@ -31,7 +31,7 @@ export default function ContactPage() {
 
     setFormState("submitting");
     try {
-      const res = await fetch("https://api.web3forms.com/submit", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         body: form,
       });
@@ -157,12 +157,6 @@ export default function ContactPage() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-5">
-                    {/* Web3Forms Hidden Fields */}
-                    <input type="hidden" name="access_key" value="4079a970-efee-4f16-be38-6ffbd88bede0" />
-                    <input type="hidden" name="subject" value="قام عميل بارسال استفسار من داخل الموقع الاكتروني يرجئ التواصل معة في الحال" />
-                    <input type="hidden" name="from_name" value="Hotline international for shipping, stevedoring and maritime services" />
-                    <input type="hidden" name="redirect" value="" />
-
                     {/* Full Name */}
                     <div>
                       <label className="block text-primary font-bold mb-2">الاسم الكامل <span className="text-brand-red">*</span></label>
