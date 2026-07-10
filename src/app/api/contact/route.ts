@@ -64,8 +64,8 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${apiKey}`,
       },
       body: JSON.stringify({
-        from: "Hotline Website <onboarding@resend.dev>",
-        to: ["sadghotline@gmail.com"], // Must be your Resend registered email during testing
+        from: "Hotline Website <contact@hotline-int-ye.com>",
+        to: ["contact@hotline-int-ye.com"],
         reply_to: email,
         subject: `استفسار جديد من: ${name}`,
         html: htmlContent,
