@@ -79,7 +79,7 @@ export default function Footer() {
             <p className="pt-2 text-base md:text-lg font-bold leading-relaxed text-white">
               تصميم وتطوير{" "}
               <a
-                href="https://www.yanuf.com/"
+                href="https://www.yanuf.com/portfolio/hotline-international"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-extrabold text-white underline decoration-brand-red decoration-2 underline-offset-4 hover:text-brand-red transition-colors"
