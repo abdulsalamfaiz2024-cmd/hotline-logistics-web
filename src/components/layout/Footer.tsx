@@ -52,6 +52,17 @@ export default function Footer() {
                 <MapPin className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
                 <span>صنعاء - شارع الخمسين - خلف سما مول<br/>مبنى زُبيدة كافي - الدور الخامس</span>
               </div>
+            <p className="text-lg font-bold leading-relaxed text-white">
+              تصميم وتطوير{" "}
+              <a
+                href="https://www.yanuf.com/portfolio/hotline-international"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-extrabold text-white no-underline hover:text-gray-200 transition-colors"
+              >
+                منصة ينوف للخدمات الرقمية
+              </a>
+            </p>
               <div className="flex items-start gap-3 group">
                 <Phone className="text-brand-blue group-hover:text-brand-red transition-colors mt-1" size={20} />
                 <div className="flex flex-col gap-1">
@@ -76,17 +87,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-gray-800/50 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-medium text-gray-500">
           <div className="space-y-2 text-center md:text-start">
             <p>© {new Date().getFullYear()} Hotline international for shipping, stevedoring and maritime services. All rights reserved.</p>
-            <p className="pt-2 text-base md:text-lg font-bold leading-relaxed text-white">
-              تصميم وتطوير{" "}
-              <a
-                href="https://www.yanuf.com/portfolio/hotline-international"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-extrabold text-white underline decoration-brand-red decoration-2 underline-offset-4 hover:text-brand-red transition-colors"
-              >
-                منصة ينوف للخدمات الرقمية
-              </a>
-            </p>
+
           </div>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-brand-red transition-colors">سياسة الخصوصية</Link>
