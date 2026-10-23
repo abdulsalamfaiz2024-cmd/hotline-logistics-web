@@ -76,13 +76,13 @@ export default function Footer() {
         <div className="pt-8 border-t border-gray-800/50 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-medium text-gray-500">
           <div className="space-y-2 text-center md:text-start">
             <p>© {new Date().getFullYear()} Hotline international for shipping, stevedoring and maritime services. All rights reserved.</p>
-            <p>
+            <p className="pt-2 text-base md:text-lg font-bold leading-relaxed text-white">
               تصميم وتطوير{" "}
               <a
                 href="https://www.yanuf.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 underline underline-offset-4 hover:text-white transition-colors"
+                className="font-extrabold text-white underline decoration-brand-red decoration-2 underline-offset-4 hover:text-brand-red transition-colors"
               >
                 منصة ينوف للخدمات الرقمية
               </a>
