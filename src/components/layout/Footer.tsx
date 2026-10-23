@@ -52,17 +52,7 @@ export default function Footer() {
                 <MapPin className="text-brand-blue group-hover:text-brand-red transition-colors" size={20} />
                 <span>صنعاء - شارع الخمسين - خلف سما مول<br/>مبنى زُبيدة كافي - الدور الخامس</span>
               </div>
-            <p className="text-lg font-bold leading-relaxed text-white">
-              تصميم وتطوير{" "}
-              <a
-                href="https://www.yanuf.com/portfolio/hotline-international"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-extrabold text-white no-underline hover:text-gray-200 transition-colors"
-              >
-                منصة ينوف للخدمات الرقمية
-              </a>
-            </p>
+
               <div className="flex items-start gap-3 group">
                 <Phone className="text-brand-blue group-hover:text-brand-red transition-colors mt-1" size={20} />
                 <div className="flex flex-col gap-1">
@@ -79,6 +69,16 @@ export default function Footer() {
             <Link href="/contact" className="mt-2 w-full text-center bg-gray-800 hover:bg-brand-red hover:text-white transition-colors text-white py-3 rounded-lg font-bold border border-gray-700">
               تواصل معنا
             </Link>
+            <p className="text-center text-lg font-bold leading-relaxed">
+              <a
+                href="https://www.yanuf.com/portfolio/hotline-international"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-extrabold text-[#38bdf8] underline decoration-current decoration-2 underline-offset-4 hover:text-[#7dd3fc] transition-colors"
+              >
+                تصميم وتطوير منصة ينوف للخدمات الرقمية
+              </a>
+            </p>
           </div>
 
         </div>
