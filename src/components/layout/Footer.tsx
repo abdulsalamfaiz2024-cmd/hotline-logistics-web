@@ -74,7 +74,20 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-gray-800/50 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-medium text-gray-500">
-          <p>© {new Date().getFullYear()} Hotline international for shipping, stevedoring and maritime services. All rights reserved.</p>
+          <div className="space-y-2 text-center md:text-start">
+            <p>© {new Date().getFullYear()} Hotline international for shipping, stevedoring and maritime services. All rights reserved.</p>
+            <p>
+              تصميم وتطوير{" "}
+              <a
+                href="https://www.yanuf.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 underline underline-offset-4 hover:text-white transition-colors"
+              >
+                منصة ينوف للخدمات الرقمية
+              </a>
+            </p>
+          </div>
           <div className="flex gap-4">
             <Link href="/privacy" className="hover:text-brand-red transition-colors">سياسة الخصوصية</Link>
             <span className="text-gray-700">|</span>
